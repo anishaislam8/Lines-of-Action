@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="519.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.HumanVsHuman6x6">
+   <children>
+      <Rectangle fx:id="board00" arcHeight="5.0" arcWidth="5.0" fill="#ffd62176" height="70.0" layoutX="34.0" layoutY="14.0" onMouseClicked="#board00Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board01" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="115.0" layoutY="14.0" onMouseClicked="#board01Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board02" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="196.0" layoutY="14.0" onMouseClicked="#board02Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board03" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="277.0" layoutY="14.0" onMouseClicked="#board03Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board04" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="358.0" layoutY="14.0" onMouseClicked="#board04Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board05" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="439.0" layoutY="14.0" onMouseClicked="#board05Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board15" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="439.0" layoutY="84.0" onMouseClicked="#board15Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board14" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="358.0" layoutY="84.0" onMouseClicked="#board14Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board13" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="277.0" layoutY="84.0" onMouseClicked="#board13Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board12" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="196.0" layoutY="84.0" onMouseClicked="#board12Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board11" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="115.0" layoutY="84.0" onMouseClicked="#board11Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board10" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="34.0" layoutY="84.0" onMouseClicked="#board10Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board25" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="439.0" layoutY="154.0" onMouseClicked="#board25Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board24" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="358.0" layoutY="154.0" onMouseClicked="#board24Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board23" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="277.0" layoutY="154.0" onMouseClicked="#board23Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board22" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="196.0" layoutY="154.0" onMouseClicked="#board22Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board21" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="115.0" layoutY="154.0" onMouseClicked="#board21Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board20" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="34.0" layoutY="154.0" onMouseClicked="#board20Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board35" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="439.0" layoutY="224.0" onMouseClicked="#board35Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board34" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="358.0" layoutY="224.0" onMouseClicked="#board34Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board33" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="277.0" layoutY="224.0" onMouseClicked="#board33Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board32" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="196.0" layoutY="224.0" onMouseClicked="#board32Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board31" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="115.0" layoutY="224.0" onMouseClicked="#board31Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board30" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="34.0" layoutY="224.0" onMouseClicked="#board30Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board45" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="439.0" layoutY="294.0" onMouseClicked="#board45Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board44" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="358.0" layoutY="294.0" onMouseClicked="#board44Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board43" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="277.0" layoutY="294.0" onMouseClicked="#board43Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board42" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="196.0" layoutY="294.0" onMouseClicked="#board42Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board41" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="115.0" layoutY="294.0" onMouseClicked="#board41Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board40" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="34.0" layoutY="294.0" onMouseClicked="#board40Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board55" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="439.0" layoutY="364.0" onMouseClicked="#board55Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board54" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="358.0" layoutY="364.0" onMouseClicked="#board54Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board53" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="277.0" layoutY="364.0" onMouseClicked="#board53Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board52" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="196.0" layoutY="364.0" onMouseClicked="#board52Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board51" arcHeight="5.0" arcWidth="5.0" fill="#ffd62175" height="70.0" layoutX="115.0" layoutY="364.0" onMouseClicked="#board51Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Rectangle fx:id="board50" arcHeight="5.0" arcWidth="5.0" fill="#ffd321a8" height="70.0" layoutX="34.0" layoutY="364.0" onMouseClicked="#board50Clicked" stroke="BLACK" strokeType="INSIDE" width="81.0" />
+      <Circle fx:id="c02" fill="#0dd912" layoutX="237.0" layoutY="49.0" onMouseClicked="#on02Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c03" fill="#0dd912" layoutX="318.0" layoutY="49.0" onMouseClicked="#on03Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c04" fill="#0dd912" layoutX="399.0" layoutY="49.0" onMouseClicked="#on04Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c51" fill="#0dd912" layoutX="156.0" layoutY="399.0" onMouseClicked="#on51Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c52" fill="#0dd912" layoutX="237.0" layoutY="399.0" onMouseClicked="#on52Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c53" fill="#0dd912" layoutX="318.0" layoutY="399.0" onMouseClicked="#on53Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c54" fill="#0dd912" layoutX="399.0" layoutY="399.0" onMouseClicked="#on54Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c10" fill="#0dd912" layoutX="75.0" layoutY="119.0" onMouseClicked="#on10Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c20" fill="#0dd912" layoutX="75.0" layoutY="189.0" onMouseClicked="#on20Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c30" fill="#0dd912" layoutX="75.0" layoutY="260.0" onMouseClicked="#on30Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c40" fill="#0dd912" layoutX="75.0" layoutY="329.0" onMouseClicked="#on40Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c15" fill="#0dd912" layoutX="480.0" layoutY="119.0" onMouseClicked="#on15Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c25" fill="#0dd912" layoutX="480.0" layoutY="189.0" onMouseClicked="#on25Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c35" fill="#0dd912" layoutX="480.0" layoutY="260.0" onMouseClicked="#on35Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c45" fill="#0dd912" layoutX="480.0" layoutY="329.0" onMouseClicked="#on45Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c01" fill="#0dd912" layoutX="156.0" layoutY="49.0" onMouseClicked="#on01Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c00" fill="#0dd912" layoutX="75.0" layoutY="49.0" onMouseClicked="#on00Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c05" fill="#0dd912" layoutX="480.0" layoutY="49.0" onMouseClicked="#on05Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c11" fill="#0dd912" layoutX="156.0" layoutY="119.0" onMouseClicked="#on11Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c12" fill="#0dd912" layoutX="237.0" layoutY="119.0" onMouseClicked="#on12Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c13" fill="#0dd912" layoutX="318.0" layoutY="119.0" onMouseClicked="#on13Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c14" fill="#0dd912" layoutX="399.0" layoutY="119.0" onMouseClicked="#on14Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c21" fill="#0dd912" layoutX="156.0" layoutY="189.0" onMouseClicked="#on21Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c22" fill="#0dd912" layoutX="237.0" layoutY="189.0" onMouseClicked="#on22Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c23" fill="#0dd912" layoutX="318.0" layoutY="189.0" onMouseClicked="#on23Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c24" fill="#0dd912" layoutX="399.0" layoutY="189.0" onMouseClicked="#on24Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c31" fill="#0dd912" layoutX="156.0" layoutY="260.0" onMouseClicked="#on31Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c32" fill="#0dd912" layoutX="237.0" layoutY="260.0" onMouseClicked="#on32Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c33" fill="#0dd912" layoutX="318.0" layoutY="259.0" onMouseClicked="#on33Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c34" fill="#0dd912" layoutX="399.0" layoutY="260.0" onMouseClicked="#on34Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c41" fill="#0dd912" layoutX="156.0" layoutY="329.0" onMouseClicked="#on41Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c42" fill="#0dd912" layoutX="237.0" layoutY="329.0" onMouseClicked="#on42Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c43" fill="#0dd912" layoutX="318.0" layoutY="329.0" onMouseClicked="#on43Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c44" fill="#0dd912" layoutX="399.0" layoutY="329.0" onMouseClicked="#on44Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c55" fill="#0dd912" layoutX="480.0" layoutY="399.0" onMouseClicked="#on55Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="c50" fill="#0dd912" layoutX="75.0" layoutY="399.0" onMouseClicked="#on50Clicked" radius="27.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Text fx:id="whoseTurn" layoutX="187.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="208.9482421875">
+         <font>
+            <Font name="Schadow BT Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="winner" fill="#f50303" layoutX="537.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winner:" visible="false" wrappingWidth="95.0">
+         <font>
+            <Font name="Elephant" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="winnerName" fill="#f50303" layoutX="537.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" visible="false" wrappingWidth="95.0">
+         <font>
+            <Font name="Elephant" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="pass" layoutX="559.0" layoutY="22.0" mnemonicParsing="false" onAction="#onPassPressed" text="Pass" textFill="#e40e1c" visible="false">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
